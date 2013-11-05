@@ -1,0 +1,26 @@
+{
+  "name": "apicheck",
+  "description": "apicheck lets you test an object to have a fixed set of functions.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Johannes Zellner",
+    "email": "webmaster@nebulon.de"
+  },
+  "engines": [
+    "node >= 0.8.0"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nebulade/apicheck.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "",
+    "istanbul": "",
+    "expect.js": ""
+  },
+  "scripts": {
+    "test": "./node_modules/istanbul/lib/cli.js test ./node_modules/.bin/_mocha -- -R spec ./test.js"
+  }
+}
